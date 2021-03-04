@@ -16,8 +16,8 @@ set $term kitty
 set $menu rofi -show drun | xargs swaymsg exec --
 
 ### Display configuration
-output DP-4 bg /home/neilan/Pictures/1.png fill
-output DP-2 bg /home/neilan/Pictures/2.png fill
+output DP-4 bg $HOME/Pictures/1.png fill
+output DP-2 bg $HOME/Pictures/2.png fill
 output DP-4 pos 0 0 res 1920x1200
 output DP-2 pos 1920 0 res 1920x1080
 
