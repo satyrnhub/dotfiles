@@ -1,0 +1,64 @@
+* {
+	font-size: 12px;
+	font-family: Iosevka Nerd Font Mono;
+}
+
+window#waybar {
+	background: #2e3440;
+	color: #d8dee9;
+}
+
+#workspaces,
+#clock,
+#pulseaudio,
+#memory,
+#cpu,
+#battery,
+#disk,
+#tray {
+	background: #2e3440;
+	padding: 0px 5px 0px 0px;
+}
+
+#workspaces button {
+	padding: 0 2px;
+	color: #81A1C1;
+}
+#workspaces button.focused {
+	color: #88C0D0;
+	background: #3b4252;
+}
+#workspaces button:hover {
+	box-shadow: inherit;
+	text-shadow: inherit;
+}
+#workspaces button:hover {
+	background: #4c566a;
+}
+
+#pulseaudio {
+	color: #BF616A;
+}
+#memory {
+	color: #EBCB8B;
+}
+#cpu {
+	color: #A3BE8C;
+}
+
+#disk {
+	color: #81A1C1;
+}
+
+#clock {
+	color: #B48EAD;
+}
+
+#clock,
+#pulseaudio,
+#memory,
+#cpu,
+#battery,
+#disk {
+	padding: 0 10px;
+}
