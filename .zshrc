@@ -1,3 +1,4 @@
+### Flex on Ubuntu plebs
 afetch
 
 ### Added by Zinit's installer
@@ -60,3 +61,5 @@ SPACESHIP_TERRAFORM_SHOW=false
 SPACESHIP_VI_MODE_SHOW=false
 SPACESHIP_JOBS_SHOW=false
 
+### Aliases
+alias ls='exa -a --icons'
