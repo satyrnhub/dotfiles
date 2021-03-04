@@ -1,0 +1,23 @@
+sort=-time
+layer=overlay
+background-color=#2e3440
+width=300
+height=110
+border-size=4
+border-color=#81a1c1
+border-radius=0
+icons=0
+max-icon-size=64
+default-timeout=5000
+ignore-timeout=1
+font=Iosevka Nerd Font Mono
+
+[urgency=low]
+border-color=#81A1C1
+
+[urgency=normal]
+border-color=#81A1C1
+
+[urgency=high]
+border-color=#bf616a
+default-timeout=0
