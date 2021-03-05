@@ -9,6 +9,7 @@
 - Editor: Neovim
 - Font: Iosevka Nerd Font
 - Colors: Nord
+- Neovim Config: https://github.com/ChristianChiarulli/nvim (only change was using Nord Theme)
 
 ## Hardware
 - CPU: i7-2600k @ 4.0GHz
