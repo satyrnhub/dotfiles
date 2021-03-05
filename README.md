@@ -2,12 +2,19 @@
 
 ## Info
 Distro: Arch Linux (btw)
+
 WM: Sway
+
 Bar: waybar
+
 Terminal: kitty
+
 Menu: rofi
+
 Editor: Neovim
+
 Font: Iosevka Nerd Font
+
 Colors: Nord
 
 ## Hardware
