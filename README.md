@@ -1,4 +1,4 @@
-# dotfiles
+# Dotfiles
 
 ## Info
 - Distro: Arch Linux (btw)
