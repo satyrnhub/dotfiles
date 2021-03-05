@@ -1,21 +1,14 @@
 # dotfiles
 
 ## Info
-Distro: Arch Linux (btw)
-
-WM: Sway
-
-Bar: waybar
-
-Terminal: kitty
-
-Menu: rofi
-
-Editor: Neovim
-
-Font: Iosevka Nerd Font
-
-Colors: Nord
+- Distro: Arch Linux (btw)
+- WM: Sway
+- Bar: waybar
+- Terminal: kitty
+- Menu: rofi
+- Editor: Neovim
+- Font: Iosevka Nerd Font
+- Colors: Nord
 
 ## Hardware
 CPU: i7-2600k @ 4.0GHz
