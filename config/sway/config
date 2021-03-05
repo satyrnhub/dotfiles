@@ -16,8 +16,8 @@ set $term kitty
 set $menu rofi -show drun | xargs swaymsg exec --
 
 ### Display configuration
-output DP-4 bg $HOME/Pictures/1.png fill
-output DP-2 bg $HOME/Pictures/2.png fill
+output DP-4 bg $HOME/Pictures/nord2.png fill
+output DP-2 bg $HOME/Pictures/nord2.png fill
 output DP-4 pos 0 0 res 1920x1200
 output DP-2 pos 1920 0 res 1920x1080
 
@@ -42,20 +42,19 @@ seat seat0 xcursor_theme Breeze 16
 font pango:Iosevka Nerd Font Mono 14px
 
 ### Gaps
-gaps outer 12
+gaps outer 0
 gaps inner 12
 
 ### Borders
-default_border pixel 2
-client.focused          #81a1c1 #81a1c1 #81a1c1 #81a1c1   #81a1c1
-client.focused_inactive #3b4252 #3B4252 #3B4252 #3B4252   #3B4252
-client.unfocused        #3B4252 #3B4252 #3B4252 #3B4252   #3B4252
-client.urgent           #BF616A #BF616A #BF616A #BF616A   #BF616A
-client.placeholder      #3B4252 #3B4252 #3B4252 #3B4252   #3B4252
+client.focused          #81a1c1 #81a1c1 #d8dee9 #81a1c1   #81a1c1
+client.focused_inactive #3b4252 #3B4252 #d8dee9 #3B4252   #3B4252
+client.unfocused        #3B4252 #3B4252 #d8dee9 #3B4252   #3B4252
+client.urgent           #BF616A #BF616A #d8dee9 #BF616A   #BF616A
+client.placeholder      #3B4252 #3B4252 #d8dee9 #3B4252   #3B4252
 client.background       #3b4252
 
 ### Key bindings
-bindsym --locked F7 exec pactl set-sink-mute @DEFAULT_SINK@ false; exec pactl set-sink-volume @DEFAULT_SINK@ -5%; notify-send ok
+bindsym --locked F7 exec pactl set-sink-mute @DEFAULT_SINK@ false; exec pactl set-sink-volume @DEFAULT_SINK@ -5%
 bindsym --locked F8 exec pactl set-sink-mute @DEFAULT_SINK@ false; exec pactl set-sink-volume @DEFAULT_SINK@ +5%
 bindsym --locked F9 exec pactl set-sink-mute @DEFAULT_SINK@ toggle
 bindsym Print exec grimshot save area $HOME/Pictures/$(date +'%s_grim.png') --notify
