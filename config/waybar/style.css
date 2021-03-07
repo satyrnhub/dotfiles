@@ -1,11 +1,11 @@
 * {
-	font-size: 12px;
-	font-family: Iosevka Nerd Font Mono;
+  font-size: 12px;
+  font-family: Iosevka Nerd Font Mono;
 }
 
 window#waybar {
-	background: #2e3440;
-	color: #d8dee9;
+  background: #2e3440;
+  color: #d8dee9;
 }
 
 #workspaces,
@@ -16,42 +16,48 @@ window#waybar {
 #battery,
 #disk,
 #tray {
-	background: #2e3440;
-	padding: 0px 5px 0px 0px;
+  padding: 0px 5px 0px 0px;
 }
 
 #workspaces button {
-	padding: 0 2px;
-	color: #81A1C1;
+  padding: 0px 0px;
+  color: #88c0d0;
+}
+#workspaces button.persistent {
+  color: #81a1c1;
 }
 #workspaces button.focused {
-	color: #88C0D0;
-	background: #3b4252;
+  color: #88c0d0;
+  background-color: #3b4252;
 }
 #workspaces button:hover {
-	box-shadow: inherit;
-	text-shadow: inherit;
+  box-shadow: inherit;
+  text-shadow: inherit;
 }
 #workspaces button:hover {
-	background: #4c566a;
+  background: #3b4252;
+}
+
+#window {
+  color: #81a1c1;
 }
 
 #pulseaudio {
-	color: #BF616A;
+  color: #bf616a;
 }
 #memory {
-	color: #EBCB8B;
+  color: #ebcb8b;
 }
 #cpu {
-	color: #A3BE8C;
+  color: #a3be8c;
 }
 
 #disk {
-	color: #81A1C1;
+  color: #81a1c1;
 }
 
 #clock {
-	color: #B48EAD;
+  color: #b48ead;
 }
 
 #clock,
@@ -60,5 +66,5 @@ window#waybar {
 #cpu,
 #battery,
 #disk {
-	padding: 0 10px;
+  padding: 0 10px;
 }
