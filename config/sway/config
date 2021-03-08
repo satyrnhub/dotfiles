@@ -3,7 +3,7 @@ exec_always --no-startup-id autotiling
 exec export XDG_CURRENT_DESKTOP=sway
 exec mako
 exec waybar
-exec fcitx5
+exec fcitx
 exec blueman-tray
 exec /usr/lib/xfce-polkit/xfce-polkit &
 exec corectrl
